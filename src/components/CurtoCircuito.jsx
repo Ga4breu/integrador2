@@ -1,6 +1,6 @@
 import React from "react";
 
-export const About = (props) => {
+ const CurtoCircuito = (props) => {
   return (
     <div id="about">
       <div className="container">
@@ -17,20 +17,16 @@ export const About = (props) => {
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
-                    {props.data
-                      ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
-                      : "loading"}
+                    
+
+
                   </ul>
                 </div>
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
-                    {props.data
-                      ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
-                      : "loading"}
+                    
+
+                    
                   </ul>
                 </div>
               </div>
@@ -41,3 +37,4 @@ export const About = (props) => {
     </div>
   );
 };
+export default CurtoCircuito;

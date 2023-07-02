@@ -158,12 +158,14 @@
     {
       "icon": "fa fa-bolt",
       "title": "Curto Circuito",
-      "text": "Entenda Como os Curto Circuitos afetam o nosso sistema."
+      "text": "Entenda Como os Curto Circuitos afetam o nosso sistema.",
+      "link": "/curtocircuito"
     },
     {
       "icon": "fa fa-area-chart",
       "title": "Estabilidade",
-      "text": "Entenda o que é a estabilidade de um sistema elétrico de potência."
+      "text": "Entenda o que é a estabilidade de um sistema elétrico de potência.",
+      "link": "/estabilidade"
     }
 
   ]

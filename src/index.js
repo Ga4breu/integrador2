@@ -3,10 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import { createBrowserRouter,RouterProvider, Route } from "react-router-dom";
+import CurtoCircuito from './components/CurtoCircuito.jsx';
+import Estabilidade from './components/Estabilidade.jsx';
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>
+  },
+  {
+    path: "curtocircuito",
+    element: <CurtoCircuito/>
+  },
+  {
+    path: "estabilidade",
+    element: <Estabilidade/>
+  },
+]);
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -4,18 +4,18 @@
     "paragraph": "Neste Blog, iremos abordar a análise de estabilidade e faltas no sistema elétrico de potência, utilizando o software ANATEM e ANAFAS, do pacote CEPEL."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "O sistema análisado é composto por 33 Barras, onde temos barras de geração e barras de carga, o intuito desse trabalho é compreender exatamente como faltas elétricas impactam o nosso sistema, e também, analisar a estabilidade desse sistema.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Curto Circuito Trifásico;",
+      "Curto Circuito Monofásico;",
+      "Curto Circuito Bifásico;",
+      "Curto Circuito Bifásico-Terra;"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Perda de um gerador;",
+      "Perda de uma Linha;",
+      "Perda de uma Barra;",
+      "Perda de Transformador."
     ]
   },
   "Gallery": [
@@ -156,24 +156,15 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-bolt",
+      "title": "Curto Circuito",
+      "text": "Entenda Como os Curto Circuitos afetam o nosso sistema."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-area-chart",
+      "title": "Estabilidade",
+      "text": "Entenda o que é a estabilidade de um sistema elétrico de potência."
     }
+
   ]
 }

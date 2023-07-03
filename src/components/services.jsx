@@ -5,10 +5,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Estudos</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Nesse tópico abordaremos situações onde ocorrem mudanças no sistema que alteram a sua condição operativa, e podendo mudar também a sua estabilidade, abaixo, você pode conferir como alguns tipos de contingências impactam o sistema.
           </p>
         </div>
         <div className="row">

@@ -12,8 +12,9 @@ import React from "react";
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>Estabilidade</h2>
-              <p className="font-extrabold">A estabilidade em um sistema elétrico de potência é definida a partir da capacidade do sistema de suportar perturbações. </p>
-              <h3>Análises</h3>
+              <h5 className="font-extrabold">A estabilidade em um sistema elétrico de potência é definida a partir da capacidade do sistema de suportar perturbações. </h5>
+              <h2>Análises</h2>
+              <h5 className="text-justify">As barras mais críticas do ponto de vista de estabilidade são as barras de geração. No entanto, em transformadores e geradores as faltas são menos comuns e se devem a erros de operação e manutenção inadequada. Dessa forma, uma análise importante a ser indicada aqui, trata-se a respeito do tempo crítico para os geradores de acordo com a carga do sistema. Observamos que o tempo crítico diminui conforme a carga do sistema aumenta.</h5>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>

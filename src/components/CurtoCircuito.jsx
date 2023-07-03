@@ -1,8 +1,9 @@
 import React from "react";
-
+import { Navigation } from "./navigation";
  const CurtoCircuito = (props) => {
   return (
     <div id="about">
+      <Navigation/>
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">

@@ -34,10 +34,6 @@ import React from "react";
           
           
         </div>
-        <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.png" className="img-responsive" alt="" />{" "}
-          </div>
       </div>
     </div>
   );

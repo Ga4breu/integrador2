@@ -14,8 +14,8 @@
     "Why2": [
       "Perda de um gerador;",
       "Perda de uma Linha;",
-      "Perda de uma Barra;",
-      "Perda de Transformador."
+      "Impacto da Carga;",
+      "Inércia da Máquina."
     ]
   },
   "Gallery": [
@@ -67,9 +67,10 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-gear",
+      "name": "Reguladores",
+      "text": "Como os Reguladores de Tensão, de Velocidade o PSS (Power System Stabilizer) atuam.",
+      "link": "/reguladores"
     },
     {
       "icon": "fa fa-lightbulb-o",

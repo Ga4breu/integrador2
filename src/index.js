@@ -6,6 +6,10 @@ import * as serviceWorker from './serviceWorker';
 import { createBrowserRouter,RouterProvider, Route } from "react-router-dom";
 import CurtoCircuito from './components/CurtoCircuito.jsx';
 import Estabilidade from './components/Estabilidade.jsx';
+import Reguladores from './components/Reguladores.jsx';
+import Carga from './components/carga.jsx';
+import Inercia from './components/inercia.jsx';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +22,18 @@ const router = createBrowserRouter([
   {
     path: "estabilidade",
     element: <Estabilidade/>
+  },
+  {
+    path: "carga",
+    element: <Carga/>
+  },
+  {
+    path: "inercia",
+    element: <Inercia/>
+  },
+  {
+    path: "reguladores",
+    element: <Reguladores/>
   },
 ]);
 ReactDOM.render(

@@ -4,7 +4,7 @@ export const Team = (props) => {
   return (
     <div id="team" className="text-center">
       <div className="container">
-        <div className="col-md-8 col-md-offset-2 section-title">
+        <div className="place-content-center section-title">
           <h2>Conheça a nossa Equipe.</h2>
           <p>
             Nosso grupo é composto pelos melhores alunos do curso de Engenharia Elétrica da Universidade Estadual do Oeste do Paraná.
@@ -14,7 +14,7 @@ export const Team = (props) => {
         <div id="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
+                <div key={`${d.name}-${i}`} className="col-md-4 place-content-center  team">
                   <div className="thumbnail">
                     {" "}
                     <img src={d.img} alt="..." className="team-img" />

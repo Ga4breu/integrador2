@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./test.css";
 export const Team = (props) => {
   return (
     <div id="team" className="text-center">
@@ -17,11 +17,17 @@ export const Team = (props) => {
                 <div key={`${d.name}-${i}`} className="col-md-4 place-content-center  team">
                   <div className="thumbnail">
                     {" "}
+                    
+                    <a href={d.linkedin} target="_blank">
+                    <div class="linkedin-icon">
+                        <i class="fa fa-linkedin"></i>
+                      </div>
                     <img src={d.img} alt="..." className="team-img" />
                     <div className="caption">
                       <h4>{d.name}</h4>
                       <p>{d.job}</p>
                     </div>
+                    </a>
                   </div>
                 </div>
               ))

@@ -9,34 +9,26 @@ import { Navigation } from "./navigation";
           <div className="col-xs-12 col-md-6">
             {" "}
             <figure>
-              <img src="img/faltaposte.jpg" className="img-responsive" alt="" />
-              <figcaption className="text-center">Figura 1 - Descargas atmosféricas podem causar faltas.</figcaption>
+              <img src="img/faltaseq.png" className="img-responsive" alt="" />
+              <figcaption className="text-center">Figura 1 - Modelos que relacionam a oscilação da máquina síncrona.</figcaption>
+            </figure>
+            <figure>
+              <img src="img/faltaseq.png" className="img-responsive" alt="" />
+              <figcaption className="text-center">Figura 1 - Modelos que relacionam a oscilação da máquina síncrona.</figcaption>
             </figure>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text text-justify">
-              <h2>Reguladores</h2>
-              <h5>A análise de Curto Circuito no sistema elétrico de potência é necessária principalmente para viabilizar o estudo de dimensionamento de proteção, para que em caso de faltas elétricas, o sistema possa continuar operando normalmente. É importante ressaltar a importância da coordenação e seletividade da proteção elétrica, não basta apenas dimensionar a proteção de forma que seja capaz de lidar com as faltas mais severas como as faltas trifásicas, é importante também que a proteção seja sensível a faltas que impactam o sistema com menor intensidade.</h5>
+              <h2>Variação da Carga.</h2>
+              <h5>Nesse tópico abordamos como a variação da carga pode afetar o nosso sistema.</h5>
               <div className="list-style">
                 <div className="col-lg-12 col-sm-12 col-xs-12">
-                <h3>Trifásicos</h3>
+                <h3></h3>
                   <h5>
-                    Os curtos trifásicos, também são conhecidos como curtos simétricos, e ganham esse nome por conta do equílibrio que existe entre as fases previamente a falta.
-                    Curtos circuitos trifásicos são os curtos mais estudados para o dimensionamento de proteção, isso ocorre principalmente por conta de geralmente possuírem a maior corrente de curto, tornando necessário utilizá-lo como parâmetro.
+                  A partir da equação que define a relação entre potência mecânica, elétrica, e torque acelerante, utilizando os modelos matemáticos dispostos na Imagem 1, a partir de algumas inferências, como o maior ângulo entre a máquina e a referência e a relação do torque acelerante, é possível deduzir que para sistemas mais carregados, a oscilação da máquina é maior, evidenciando que as proteções devam ocorrer em tempo menores do que para sistemas de carga leve. Inferimos também que para sistemas com carga mais leve, a oscilação da máquina é menor, o que ressalta a maior estabilidade de sistemas mais leves.
                   </h5>
-                  <h3>Monofásicos</h3>
                   <h5>
-                    Curtos monofásicos são os mais comuns em sistemas elétricos de potência, ocorrendo principalmente nas linhas, temos nesse caso uma situação onde não há equilíbrio entre as fases, trazendo a necessidade da utilização de componentes de sequência para o seu estudo.
-                    As redes de sequência trazem a necessidade de uma análise mais detalhada, como podemos ver na Figura 2, agora tratamos de três circuitos.
-                  </h5>
-                  <h3>Bifásico</h3>
-                  <h5>
-                    Faltas Bifásicas também não possuem simetria, ou seja, assim como as faltas monofásicas, é necessário utilizar as redes de sequência para estudar o impacto do curto circuito.
-                    Essas Faltas ocorrem quando há contato entre duas fases, isso pode ocorrer por exemplo em dias quentes e com ventos mais intensos devido a dilatação térmica dos condutores.
-                  </h5>
-                  <h3>Bifásico-Terra</h3>
-                  <h5>
-                    Nesse caso temos a mesma situação que o caso anterior, porém, com o contato dos condutores à terra.
+                  Podemos validar a nossa teoria com o resultado obtido nas simulações realizadas no ANATEM. Dispostas na Figura 2.
                   </h5>
                 </div>
                 

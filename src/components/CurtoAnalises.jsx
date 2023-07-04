@@ -1,17 +1,17 @@
 import React from "react";
-import "./test.css";
 import { Navigation } from "./navigation";
- const CurtoCircuito = (props) => {
+ const CurtoAnalises = (props) => {
   return (
-    <div id="about" className="">
+    <div id="about">
       <Navigation/>
       <div className="container">
+        
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
             <figure>
               <img src="img/faltaposte.jpg" className="img-responsive" alt="" />
-              <figcaption className="text-center">Figura 1 - Correntes de Curto</figcaption>
+              <figcaption className="text-center">Figura 1 - Descargas atmosféricas podem causar faltas.</figcaption>
             </figure>
             <figure>
               <img src="img/sequencia.jpg" className="img-responsive" alt="" />
@@ -24,8 +24,8 @@ import { Navigation } from "./navigation";
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text text-justify">
-            <h2>Curto Circuitos</h2>
-              <h5>A análise de Curto Circuito no sistema elétrico de potência é necessária principalmente para viabilizar o estudo de dimensionamento de proteção, para que em caso de faltas elétricas, o sistema possa continuar operando normalmente. É importante ressaltar a importância da coordenação e seletividade da proteção elétrica, não basta apenas dimensionar a proteção de forma que seja capaz de lidar com as faltas mais severas como as faltas trifásicas, é importante também que a proteção seja sensível a faltas que impactam o sistema com menor intensidade.</h5>
+            <h2>Análises</h2>
+              <h5>Nesta seção iremos abordar um pouco sobre os curto circuitos, utilizando relações causa-efeito e conceitos teóricos, também apresentaremos algumas simulações.</h5>
               <div className="list-style">
                 <div className="col-lg-12 col-sm-12 col-xs-12">
                 <h3>Trifásicos</h3>
@@ -36,7 +36,7 @@ import { Navigation } from "./navigation";
                   <h3>Monofásicos</h3>
                   <h5>
                     Curtos monofásicos são os mais comuns em sistemas elétricos de potência, ocorrendo principalmente nas linhas, temos nesse caso uma situação onde não há equilíbrio entre as fases, trazendo a necessidade da utilização de componentes de sequência para o seu estudo.
-                    As redes de sequência trazem a necessidade de uma análise mais detalhada, como podemos ver na Figura 2, agora tratamos de três circuitos. Vale ressaltar que existem casos onde os curtos monofásicos podem possuir intensidade superior a curtos trifásicos, isso geralmente depende da impedância de aterramento e configuração do transformador.
+                    As redes de sequência trazem a necessidade de uma análise mais detalhada, como podemos ver na Figura 2, agora tratamos de três circuitos.
                   </h5>
                   <h3>Bifásico</h3>
                   <h5>
@@ -54,15 +54,8 @@ import { Navigation } from "./navigation";
         </div>
         
       </div>
-      <a
-  href="/curtoanalises"
-  target="_blank"
-  className="btn btn-custom btn-lg page-scroll bottom-button"
->
-  Veja Mais
-</a>{" "}
     </div>
     
   );
 };
-export default CurtoCircuito;
+export default CurtoAnalises;

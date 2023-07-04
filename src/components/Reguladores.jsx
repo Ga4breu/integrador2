@@ -19,24 +19,17 @@ import { Navigation } from "./navigation";
               <h5>A análise de Curto Circuito no sistema elétrico de potência é necessária principalmente para viabilizar o estudo de dimensionamento de proteção, para que em caso de faltas elétricas, o sistema possa continuar operando normalmente. É importante ressaltar a importância da coordenação e seletividade da proteção elétrica, não basta apenas dimensionar a proteção de forma que seja capaz de lidar com as faltas mais severas como as faltas trifásicas, é importante também que a proteção seja sensível a faltas que impactam o sistema com menor intensidade.</h5>
               <div className="list-style">
                 <div className="col-lg-12 col-sm-12 col-xs-12">
-                <h3>Trifásicos</h3>
+                <h3>Regulador de Velocidade</h3>
                   <h5>
-                    Os curtos trifásicos, também são conhecidos como curtos simétricos, e ganham esse nome por conta do equílibrio que existe entre as fases previamente a falta.
-                    Curtos circuitos trifásicos são os curtos mais estudados para o dimensionamento de proteção, isso ocorre principalmente por conta de geralmente possuírem a maior corrente de curto, tornando necessário utilizá-lo como parâmetro.
+                   Aumenta ou diminui o torque mecânico, consequentemente altera a potência mecânica Pm. Possui ação muito lenta, pois numa máquina síncrona um aumento no torque mecânico corresponde a abertura de uma válvula para a descida de mais água para a turbina, ou de mais vapor da caldeira. Essa razão (lentidão) é pela qual o RV é desprezado nos estudos de estabilidade, e, portanto, era esperado que o RV contribuísse pouco para a estabilidade.
                   </h5>
-                  <h3>Monofásicos</h3>
+                  <h3>Regulador de Tensão.</h3>
                   <h5>
-                    Curtos monofásicos são os mais comuns em sistemas elétricos de potência, ocorrendo principalmente nas linhas, temos nesse caso uma situação onde não há equilíbrio entre as fases, trazendo a necessidade da utilização de componentes de sequência para o seu estudo.
-                    As redes de sequência trazem a necessidade de uma análise mais detalhada, como podemos ver na Figura 2, agora tratamos de três circuitos.
+                  O regulador de tensão é um componente essencial da máquina síncrona, responsável por muitas funções, como manter a tensão terminal constante e dentro dos valores operativos, além de fazer com que a máquina retorne para um ponto de operação dentro de sua curva de capabilidade após um evento do sistema. Na estabilidade angular ele é responsável por diminuir a potência acelerante através da manipulação da potência elétrica Pe, sendo que grande parte dos problemas de estabilidade foram eliminados devido ao uso dos RTs.
                   </h5>
-                  <h3>Bifásico</h3>
+                  <h3>Power System Stabilizer</h3>
                   <h5>
-                    Faltas Bifásicas também não possuem simetria, ou seja, assim como as faltas monofásicas, é necessário utilizar as redes de sequência para estudar o impacto do curto circuito.
-                    Essas Faltas ocorrem quando há contato entre duas fases, isso pode ocorrer por exemplo em dias quentes e com ventos mais intensos devido a dilatação térmica dos condutores.
-                  </h5>
-                  <h3>Bifásico-Terra</h3>
-                  <h5>
-                    Nesse caso temos a mesma situação que o caso anterior, porém, com o contato dos condutores à terra.
+                  Sua função básica é acrescentar amortecimento às oscilações do rotor pelo controle da excitação usando um sinal auxiliar estabilizador. Para realizar isso, o PSS deve produzir uma componente do torque elétrico em fase com o desvio de velocidade do rotor. Assim como o RT, o PSS atua em Pe, no entanto é utilizado apenas para pequenas perturbações, de modo que a utilização de RT+PSS nas simulações é esperado que o resultado seja similar ao com uso de apenas o RT e possivelmente mais amortecido.
                   </h5>
                 </div>
                 

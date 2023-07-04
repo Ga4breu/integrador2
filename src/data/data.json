@@ -122,7 +122,7 @@
       "img": "img/team/01.jpg",
       "name": "Bruno Zwierewicz",
       "job": "Diretor",
-      "linkedin":""
+      "linkedin":"https://www.linkedin.com/in/bruno-zwierewicz-442a571b5/"
     },
     {
       "img": "img/team/02.jpg",
@@ -133,7 +133,7 @@
     {
       "img": "img/team/03.png",
       "name": "Gabriel Abreu",
-      "job": "Apoio Moral",
+      "job": "Apoio Moral e Atleta Federado",
       "linkedin":"https://www.linkedin.com/in/gabriel-s-de-abreu-a040161b7/"
     }
   ],

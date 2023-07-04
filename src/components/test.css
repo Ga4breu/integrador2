@@ -1,0 +1,21 @@
+.bottom-button {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .linkedin-icon {
+    background-color: #0077B5; /* LinkedIn blue color */
+    width: 50px; /* Adjust the width and height to your preference */
+    height: 50px;
+    border-radius: 10%; /* To create a rounded shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .linkedin-icon i {
+    color: white; /* Set the icon color to white */
+    font-size: 24px; /* Adjust the icon size to your preference */
+  }

@@ -5,7 +5,7 @@ export const Features = (props) => {
     <div id="features" className="text-center">
       <div className="container place-content-center">
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Análises</h2>
+          <h2>Introdução</h2>
         </div>
         <div className="row justify-content-center place-content-center">
           {props.data ? (

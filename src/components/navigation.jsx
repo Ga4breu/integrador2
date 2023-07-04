@@ -27,30 +27,30 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="/#features" className="page-scroll">
-                Estabilidade
+          <li>
+              <a href="/#about" className="page-scroll">
+                O sistema
               </a>
             </li>
             <li>
-              <a href="/#about" className="page-scroll">
-                Faltas
+              <a href="/#features" className="page-scroll">
+                Introdução
               </a>
             </li>
             <li>
               <a href="/#services" className="page-scroll">
-                Services
+                Estudos
               </a>
             </li>
             <li>
-              <a href="/#portfolio" className="page-scroll">
+              {/* <a href="/#portfolio" className="page-scroll">
                 Gallery
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="/#testimonials" className="page-scroll">
+              {/* <a href="/#testimonials" className="page-scroll">
                 Testimonials
-              </a>
+              </a> */}
             </li>
             <li>
               <a href="/#team" className="page-scroll">
@@ -58,7 +58,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="/#contact" className="page-scroll">
+              <a href="https://www.google.com" target="_blank" className="page-scroll">
                 Dúvidas?
               </a>
             </li>

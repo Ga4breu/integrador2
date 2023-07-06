@@ -9,8 +9,12 @@ import { Navigation } from "./navigation";
           <div className="col-xs-12 col-md-6">
             {" "}
             <figure>
-              <img src="img/faltaposte.jpg" className="img-responsive" alt="" />
-              <figcaption className="text-center">Figura 1 - Descargas atmosféricas podem causar faltas.</figcaption>
+              <img src="img/controladores.png" className="img-responsive" alt="" />
+              <figcaption className="text-center">Figura 1 - Resultados para simulação com os reguladores.</figcaption>
+            </figure>
+            <figure>
+              <img src="img/regulacao.png" className="img-responsive" alt="" />
+              <figcaption className="text-center">Figura 2 - Efeito da regulação na estabilidade (podemos verificar a manutenção da estabilidade na frequência quando os reguladores estão presentes).</figcaption>
             </figure>
           </div>
           <div className="col-xs-12 col-md-6">

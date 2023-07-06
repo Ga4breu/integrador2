@@ -54,13 +54,13 @@ import { Navigation } from "./navigation";
         </div>
         
       </div>
-      <a
+      {/* <a
   href="/curtoanalises"
   target="_blank"
   className="btn btn-custom btn-lg page-scroll bottom-button"
 >
   Veja Mais
-</a>{" "}
+</a>{" "} */}
     </div>
     
   );

@@ -14,7 +14,11 @@ import { Navigation } from "./navigation";
             </figure>
             <figure>
               <img src="img/inercia.png" className="img-responsive" alt="" />
-              <figcaption className="text-center">Figura 1 - Descargas atmosféricas podem causar faltas.</figcaption>
+              <figcaption className="text-center">Figura 2 - Impacto da "variação" da inércia.</figcaption>
+            </figure>
+            <figure>
+              <img src="img/anateminercia.png" className="img-responsive" alt="" />
+              <figcaption className="text-center">Figura 3 - Impacto da "variação" da inércia em uma máquina e seu tempo crítico.</figcaption>
             </figure>
           </div>
           <div className="col-xs-12 col-md-6">
@@ -29,6 +33,9 @@ import { Navigation } from "./navigation";
                   </h5>
                   <h5>
                    Evidentemente, de acordo com os modelos matemáticos, é possível supor que a inércia haverá uma grande influência no tempo crítico da máquina, não necessáriamente no ângulo. E é exatamente o que podemos validar com as simulações apresentadas na imagem 2.
+                  </h5>
+                  <h5>
+                   Também, como ferramenta de análise, podemos verificar na imagem 3 uma visualização clara do impacto da inércia no tempo crítico de um gerador.
                   </h5>
                 </div>
                 

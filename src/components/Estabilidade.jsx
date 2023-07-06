@@ -16,7 +16,13 @@ import { Navigation } from "./navigation";
               <h2>Estabilidade</h2>
               <h5 className="font-extrabold">A estabilidade em um sistema elétrico de potência é definida a partir da capacidade do sistema de suportar perturbações. </h5>
               <h2>Análises</h2>
-              <h5 className="text-justify">As barras mais críticas do ponto de vista de estabilidade são as barras de geração. No entanto, em transformadores e geradores as faltas são menos comuns e se devem a erros de operação e manutenção inadequada. Dessa forma, uma análise importante a ser indicada aqui, trata-se a respeito do tempo crítico para os geradores de acordo com a carga do sistema. Observamos que o tempo crítico diminui conforme a carga do sistema aumenta.</h5>
+              <h5 className="text-justify">A definição de estabilidade em um sistema elétrico de potência, diz a respeito da capacidade do sistema após uma perturbação, de voltar a operar normalmente, ou seja, sem perder a estabilidade.
+              </h5>
+              <h5 className="text-justify"> A análise de estabilidade transitória desenvolvida nesse trabalho é referente principalmente ao ângulo existente entre as barras e a referência em G.B. Munhoz
+              , ou seja, em um sistema extremamente malhado. Eventualmente durante o trabalho, foi utilizado o critério das áreas iguais para inferências e relações causa efeito por motivos de simplificação do modelo.
+              </h5>
+              <h5 className="text-justify">
+              </h5>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
@@ -37,6 +43,13 @@ import { Navigation } from "./navigation";
           
         </div>
       </div>
+      {/* <a
+  href="/redespacho"
+  target="_blank"
+  className="btn btn-custom btn-lg page-scroll bottom-button"
+>
+  Veja Mais
+</a>{" "} */}
     </div>
   );
 };

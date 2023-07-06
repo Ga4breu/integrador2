@@ -10,6 +10,7 @@ import Estabilidade from './components/Estabilidade.jsx';
 import Reguladores from './components/Reguladores.jsx';
 import Carga from './components/carga.jsx';
 import Inercia from './components/inercia.jsx';
+import Redespacho from './components/Redespacho.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "reguladores",
     element: <Reguladores/>
+  },
+  {
+    path: "redespacho",
+    element: <Redespacho/>
   },
 ]);
 ReactDOM.render(

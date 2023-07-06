@@ -31,7 +31,7 @@ import { Navigation } from "./navigation";
                 <h3>Trifásicos</h3>
                   <h5>
                     Os curtos trifásicos, também são conhecidos como curtos simétricos, e ganham esse nome por conta do equílibrio que existe entre as fases previamente a falta.
-                    Curtos circuitos trifásicos são os curtos mais estudados para o dimensionamento de proteção, isso ocorre principalmente por conta de geralmente possuírem a maior corrente de curto, tornando necessário utilizá-lo como parâmetro.
+                    Curtos circuitos trifásicos são os curtos mais estudados para o dimensionamento de proteção, isso ocorre principalmente por conta de geralmente possuírem a maior corrente de curto, tornando necessário utilizá-lo como parâmetro. E é importante ressaltar que durante o curto circuito trifásico, a corrente de falta fica na linha.
                   </h5>
                   <h3>Monofásicos</h3>
                   <h5>

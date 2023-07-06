@@ -83,6 +83,12 @@
       "name": "Inércia da Máquina",
       "text": "Nesse tópico analisamos como a inércia da máquina em um sistema elétrico de potência.",
       "link": "/inercia"
+    },
+    {
+      "icon": "fa fa-power-off",
+      "name": "Redespacho",
+      "text": "Nesse tópico analisamos como um redespacho da geração impacta o nosso sistema.",
+      "link": "/redespacho"
     }
   ],
   "Testimonials": [

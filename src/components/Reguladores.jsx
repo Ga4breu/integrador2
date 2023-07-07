@@ -9,11 +9,11 @@ import { Navigation } from "./navigation";
           <div className="col-xs-12 col-md-6">
             {" "}
             <figure>
-              <img src="img/controladores.png" className="img-responsive" alt="" />
+              <img src="img/Controladores.png" className="img-responsive" alt="" />
               <figcaption className="text-center">Figura 1 - Resultados para simulação com os reguladores.</figcaption>
             </figure>
             <figure>
-              <img src="img/regulacao.png" className="img-responsive" alt="" />
+              <img src="img/Regulacao.png" className="img-responsive" alt="" />
               <figcaption className="text-center">Figura 2 - Efeito da regulação na estabilidade (podemos verificar a manutenção da estabilidade na frequência quando os reguladores estão presentes).</figcaption>
             </figure>
           </div>
